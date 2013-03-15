@@ -1,0 +1,5 @@
+--recursive 
+--compilers coffee:coffee-script
+-r test/_init.js
+-R list
+-g @ym
