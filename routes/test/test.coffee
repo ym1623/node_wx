@@ -6,16 +6,16 @@ module.exports = (app) ->
 
   app.post '/wx/login', (req, res) ->
     msg = req.body.msg
-    fakeids = (req.body.fakeid).split(',')
-    wx.login req, (err, cookie) ->
-      req.session.is_login = cookie if cookie
+    fakeid = req.body.fakeid
+    wx.login req, (err, results) ->
+      req.session.is_login = results.cookie if results.cookie
       res.json err if err
-      for fakeid in fakeids
-        data =
-          msg    : msg
-          fakeid : fakeid
-          cookie :  cookie
-        wx.sender req, data, (err, results) ->
-          res.json err if err
-          res.json results
+      data =
+        msg : msg
+        fakeid : fakeid
+        cookie : results.cookie
+        token : results.token
 
+      wx.sender req, data, (err, results) ->
+        res.json err if err
+        res.json results

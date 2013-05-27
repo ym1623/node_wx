@@ -1,4 +1,4 @@
 module.exports = 
   wx :
-    user : '微信公眾平臺帳號'
-    pwd  : '微信公眾平臺密碼'
+    user : '微信公众账号'
+    pwd  : '微信公众密码'
