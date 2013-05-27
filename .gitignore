@@ -1,2 +1,6 @@
-# node app config
+.DS_Store
 config/config.coffee
+node_modules/
+
+*.sublime-project
+*.sublime-workspace
