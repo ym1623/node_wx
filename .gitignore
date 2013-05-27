@@ -1,6 +1,10 @@
 .DS_Store
-config/config.coffee
 node_modules/
+config/config.coffee
+npm-debug.log
+public/uploads/
+public/avatar/
+test/mocha.opts
 
 *.sublime-project
 *.sublime-workspace
