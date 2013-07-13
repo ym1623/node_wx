@@ -4,7 +4,7 @@ config = require __basename + '/config/config'
 fs = require 'fs'
 http = require 'http'
 
-module.exports = 
+module.exports =
   login: (req, fn) ->
     return fn null, req.session.is_login if req.session.is_login
     wx_usr = config.wx.user
@@ -48,19 +48,19 @@ module.exports =
     unless token
       fn error : 'missing access_token'
 
-    psotParams =
+    postParams =
       type: 1
       content: msg
       error: false
       tofakeid : fakeid
       token : token
       ajax : 1
-      
+
 
     request
       .post('https://mp.weixin.qq.com/cgi-bin/singlesend?t=ajax-response&lang=zh_CN')
       .type('form')
-      .send(psotParams)
+      .send(postParams)
       .set('Cookie', options.cookie)
       .set('Referer', 'https://mp.weixin.qq.com/cgi-bin/singlesend?t=ajax-response&lang=zh_CN')
       .end (res) ->
