@@ -1,4 +1,4 @@
 module.exports = 
   wx :
-    user : '1796137413'
-    pwd  : 'wxy1681@yahoo.cn'
+    user : '你的微信账号'
+    pwd  : '你的微信密码'

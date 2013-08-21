@@ -29,6 +29,7 @@ app.configure ->
   app.use cors
   app.use app.router
   app.use stylus
+  app.use express.static __dirname + '/public'
 
 app.configure 'development', ->
   app.use express.errorHandler
