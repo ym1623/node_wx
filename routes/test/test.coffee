@@ -1,7 +1,7 @@
 wx = require __basename + '/helpers/wx/wx'
 http = require 'http'
 fs = require 'fs'
-helper = require __basename + '/helpers/common'
+helper = require __basename + '/helpers/wx/wx.coffee'
 
 module.exports = (app) ->
 
