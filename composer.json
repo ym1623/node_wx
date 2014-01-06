@@ -3,7 +3,7 @@
     "type": "library",
     "description": "running nodejs > 0.8",
     "keywords": ["node_wx","wx_server"],
-	"version": "2.1.1",
+	"version": "2.1.2",
     "homepage": "https://github.com/ym1623/node_wx",
     "license": "MIT",
     "authors": [
@@ -16,5 +16,10 @@
     ],
     "require": {
         "nodejs": ">=0.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
     }
 }
