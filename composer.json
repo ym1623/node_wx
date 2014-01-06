@@ -1,0 +1,25 @@
+{
+    "name": "nodejs/wx_server",
+    "type": "library",
+    "description": "running nodejs > 0.8",
+    "keywords": ["nodewx","wx_server"],
+	"version": "2.1.1",
+    "homepage": "https://github.com/ym1623/node_wx",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordi Boggiano",
+            "email": "j.boggiano@seld.be",
+            "homepage": "http://seld.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "nodejs": ">=0.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
+}
