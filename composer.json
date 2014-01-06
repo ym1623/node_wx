@@ -2,16 +2,16 @@
     "name": "ym1623/node_wx",
     "type": "library",
     "description": "running nodejs > 0.8",
-    "keywords": ["nodewx","wx_server"],
+    "keywords": ["node_wx","wx_server"],
 	"version": "2.1.1",
     "homepage": "https://github.com/ym1623/node_wx",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jordi Boggiano",
-            "email": "j.boggiano@seld.be",
-            "homepage": "http://seld.be",
-            "role": "Developer"
+            "name": "ym1623",
+            "email": "yuem1623@gmail.com",
+            "homepage": "http://ym1623.com",
+            "role": "Master"
         }
     ],
     "require": {
