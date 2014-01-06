@@ -1,5 +1,5 @@
 {
-    "name": "nodejs/wx_server",
+    "name": "ym1623/node_wx",
     "type": "library",
     "description": "running nodejs > 0.8",
     "keywords": ["nodewx","wx_server"],
