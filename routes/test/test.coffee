@@ -1,6 +1,5 @@
 wx = require __basename + '/helpers/wx/wx'
 http = require 'http'
-fs = require 'fs'
 
 module.exports = (app) ->
 

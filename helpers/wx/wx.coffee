@@ -1,7 +1,6 @@
 request = require 'superagent'
 require __basename + '/helpers/wx/md5'
 config = require __basename + '/config/config'
-fs = require 'fs'
 http = require 'http'
 
 module.exports =
