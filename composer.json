@@ -16,10 +16,5 @@
     ],
     "require": {
         "nodejs": ">=0.8"
-    },
-    "autoload": {
-        "psr-0": {
-            "Monolog": "src"
-        }
     }
 }
