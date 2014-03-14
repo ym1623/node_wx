@@ -2,3 +2,4 @@
 # API
 # @author: ym
 此項目為微信API核心RESTFUL API.
+项目主页介绍：http://ym1623.github.io/node_wx
